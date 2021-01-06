@@ -20,7 +20,7 @@ Route53 will be used to manage hosted zones for all Bridgeview Harbour Domains i
 Amazon CloudFront will be used to distribute bridgeviewharbour.com to North American edge locations. Distribution to these geographically diverse data centers ensures optimal customer experience and faster page load times when compare to traditional single origin hosting. Intelligent DNS Geo routing will provide resolution to the nearest edge location when requesting the site. 
 
 ### Security
-As of January 2021, bridgeviewharbour.com will only be served via TLS 1.2 or later per [SSL Labs Deployment Recommendations](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices) which will help with Search Engine Optimization. Enforcement of Secure Cypers and HTTPS is not just good practice, it impacts Search Engine Ranking.  In 2018 Google announced it would be begin ranking unsecure websites lower in search results and [marking them as Not Secure] (https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) within the Google Chrome Browser
+As of January 2021, bridgeviewharbour.com will only be served via TLS 1.2 or later per [SSL Labs Deployment Recommendations](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices) which will help with Search Engine Optimization. Enforcement of Secure Cypers and HTTPS is not just good practice, it impacts Search Engine Ranking.  In 2018 Google announced it would be begin ranking unsecure websites lower in search results and [marking them as Not Secure](https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) within the Google Chrome Browser
 
 
 ### Continuous Deployment Pipeline
