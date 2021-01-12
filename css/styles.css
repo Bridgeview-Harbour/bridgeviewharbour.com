@@ -341,6 +341,10 @@ legend {
     white-space: normal;
 }
 
+boats {
+    min-width: 100vw;
+}
+
 progress {
     vertical-align: baseline;
 }
@@ -10426,7 +10430,8 @@ body {
 
 .about-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 1) 75%, rgba(255, 255, 255, 1) 100%);
+    padding-bottom: 25rem;
 }
 
 .about-section p {
