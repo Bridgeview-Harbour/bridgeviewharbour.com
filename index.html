@@ -27,12 +27,13 @@
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Bridgeview Harbour Marina</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#request">Request A Slip</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
                 </ul>
@@ -45,14 +46,14 @@
 
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="./video/Van-Slooten-62mb.mp4" type="video/mp4">
-    </video>
+        <source src="./video/Van-Slooten-62mb.mp4" type="video/mp4">
+        </video>
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0 text-uppercase">Bridgeview Harbour Marina</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">A full Service Marina on Lake Champlain in Port Henry, NY</h2>
-                <h3 class="text-white-50 mx-auto mt-2 mb-5">Check back for our full Website</br>Coming in March 2021</h3>
-                <a class="btn btn-primary js-scroll-trigger" href="#services">See Our Services</a>
+                <h3 class="text-white-50 mx-auto mt-2 mb-5">Check back for our full Website</br>Coming Soon!</h3>
+                <a class="btn btn-primary js-scroll-trigger" href="#request">Request a Slip or Mooring</a>
             </div>
         </div>
     </header>
@@ -71,7 +72,23 @@
         </div>
         <img class="img-fluid boats" src="./images/sunrise-boats-BW-withTopFade.jpg" alt="" />
     </section>
-    <!-- Projects-->
+
+    <!-- Request a Slip-->
+    <section class="bg-dark" id="request">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Request a Slip or Mooring</h2>
+                    <!-- Dockwa Embedded Reservation Form https://dockwa.com -->
+                    <script src="https://assets.dockwa.com/white-label-form/v1/dockwa-form.js"></script>
+                    <iframe src="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/embed" id="dockwa-embed" frameborder="0" onload="dockwaOnload()" width="100%" height="1000px" style="opacity:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services-->
     <section class="projects-section bg-light" id="services">
         <div class="container">
             <!-- Featured Project Row-->
@@ -173,7 +190,7 @@
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4" />
                             <div class="small text-black-50"><a href="https://goo.gl/maps/V8DJoXtvhDWAdEmb7">54 Harbour Lane, Port
-                  Henry NY 12974</a></div>
+                    Henry NY 12974</a></div>
                         </div>
                     </div>
                 </div>
@@ -207,34 +224,7 @@
         </div>
     </section>
 
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 text-left">
-                    Briddgeview Harbour Marina</br>
-                    <a href="https://goo.gl/maps/2iL5LiAp7uGhJgf56">
-            54 Harbour Lane</br>
-            Port Henry, NY 12974
-          </a>
-                    <a href="https://goo.gl/maps/AicnpS9LttKP7zXo7"></a>
-                </div>
-                <div class="col-lg-4 text-left">
-                </div>
-                <div class="col-lg-4 text-left">
-                    <div id="waterwayguide">
-                        <link rel="stylesheet" type="text/css" href="http://www.waterwayguide.com/assets/css/branded_badges.css">
-                        <a id="as-seen-in-waterway-guide-white" href="https://www.waterwayguide.com/marina/bridgeview-harbour-marina"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 ">
-                    Copyright © Bridgeview Harbour LLC 2021
-                </div>
-            </div>
-        </div>
-    </footer>
+
 
     <!-- Start of MailChimp Embed Code -->
     <script id="mcjs">
@@ -270,3 +260,5 @@
         gtag('config', 'G-W3B3SQKJ46');
     </script>
 </body>
+
+</html>
