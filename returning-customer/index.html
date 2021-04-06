@@ -19,6 +19,9 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
+
+    <!-- Dockwa Button Themes -->
+    <link rel="stylesheet" type="text/css" href="https://assets.dockwa.com/badge/v1/badge.css">
 </head>
 
 <body id="page-top">
@@ -69,28 +72,36 @@
             <div class="col-lg-8 mx-auto">
                 <ul class="text-white" style="list-style-type:none;">
                     <li>
-                        <a href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=510JFVE1">
-                            <h3 color="white">Main Dock</h3>
-                        </a>
+                        <div id="dockwa-book-button">
+                            <a id="dockwa-link" href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=510JFVE1" target="_blank"><img id="dockwa-img" src="https://assets.dockwa.com/badge/v1/logo.png">
+                                <span id="dockwa-book-now">Main Dock</span>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=1QDVIR5J">
-                            <h3 color="white">Cafe Dock</h3>
-                        </a>
+                        <div id="dockwa-book-button">
+                            <a id="dockwa-link" href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=1QDVIR5J" target="_blank"><img id="dockwa-img" src="https://assets.dockwa.com/badge/v1/logo.png">
+                                <span id="dockwa-book-now">Café Dock</span>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=QNQRB0K7">
-                            <h3 color="white">Mooring</h3>
-                        </a>
+                        <div id="dockwa-book-button">
+                            <a id="dockwa-link" href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=QNQRB0K7" target="_blank"><img id="dockwa-img" src="https://assets.dockwa.com/badge/v1/logo.png">
+                                <span id="dockwa-book-now">Mooring</span>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=4VKPTKDZ">
-                            <h3 color="white">Summer Storage</h3>
-                        </a>
+                        <div id="dockwa-book-button">
+                            <a id="dockwa-link" href="https://dockwa.com/explore/destination/4qcvdl-bridgeview-harbour-marina/inquiries/new?contract_group_id=4VKPTKDZ" target="_blank"><img id="dockwa-img" src="https://assets.dockwa.com/badge/v1/logo.png">
+                                <span id="dockwa-book-now">Summer Storage</span>
+                            </a>
+                        </div>
                     </li>
                     <li>
                         <a href="mailto:crew@bridgeviewharbour.com">
-                            <h3 color="white">Other Requests</h3>
+                            <h3 style="color:white">Other Requests</h3>
                         </a>
                     </li>
                 </ul>
@@ -154,6 +165,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- Start Dockwa Open Pixel -->
+    <script>
+        ! function(e, t, n, c, a, s, i, o, p) {
+            e[a] || (i = e[a] = function() {
+                i.process ? i.process.apply(i, arguments) : i.queue.push(arguments)
+            }, i.queue = [], i.t = 1 * new Date, o = t.createElement(n), o.async = 1, o.src = c + "?t=" + Math.ceil(
+                new Date / s) * s, p = t.getElementsByTagName(n)[0], p.parentNode.insertBefore(o, p))
+        }(window, document, "script", "https://static.dockwa-analytics.net/v1/openpixel.js", "dckw", 864e5);
+        dckw("init", "8G0KE");
+        dckw("event", "pageload");
+    </script>
+    <!-- End Dockwa Open Pixel -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3B3SQKJ46"></script>
