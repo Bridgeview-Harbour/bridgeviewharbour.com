@@ -4375,7 +4375,7 @@
     
     .nav-tabs .nav-link.active,
     .nav-tabs .nav-item.show .nav-link {
-        color: #495057;
+        color: rgb(211, 211, 211);
         background-color: #fff;
         border-color: #dee2e6 #dee2e6 #fff;
     }
@@ -4790,7 +4790,7 @@
     }
     
     .navbar-dark .navbar-nav .nav-link {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.9);
     }
     
     .navbar-dark .navbar-nav .nav-link:hover,
@@ -10277,7 +10277,7 @@
     
     #mainNav {
         min-height: 2.0rem;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.9);
     }
     
     #mainNav .navbar-toggler {
@@ -10306,7 +10306,7 @@
     #mainNav .navbar-nav .nav-item:active,
     #mainNav .navbar-nav .nav-item:focus {
         outline: none;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.9);
     }
     
     @media (min-width: 992px) {
@@ -10314,7 +10314,7 @@
             padding-top: 0;
             padding-bottom: 0;
             border-bottom: none;
-            background-color: transparent;
+            background-color: rgba(0, 0, 0, 0.9);
             transition: background-color 0.3s ease-in-out;
         }
         #mainNav .navbar-brand {
