@@ -10544,3 +10544,10 @@
     .footer {
         padding: 5rem 0;
     }
+    /** Custom Styles **/
+    
+    .app-store-badge {
+        height: 45px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
