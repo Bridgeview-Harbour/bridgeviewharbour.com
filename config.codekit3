@@ -88,6 +88,26 @@
 		"oAP": "/CNAME",
 		"oF": 0
 		},
+	"/css/dockwa.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/dockwa-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/returning-customer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/returning-customer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -223,6 +243,14 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/returning-customer/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/returning-customer/index.html",
+		"oF": 0
 		},
 	"/video/Van-Slooten-62mb.mp4": {
 		"cB": 0,
